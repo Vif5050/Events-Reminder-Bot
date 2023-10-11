@@ -19,7 +19,7 @@ def main(message: tb.types.Message):
 @bot.message_handler(content_types=['audio', 'voice'])
 def main(message):
     if message:
-        bot.send_message(message.chat.id, "🗿")
+        bot.send_message(message.chat.id, "🗿🗿")
 
 @bot.message_handler(content_types=['sticker'])
 def main(message):
