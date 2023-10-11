@@ -15,6 +15,7 @@ def main(message: tb.types.Message):
     connection.close()
     if message:
         bot.send_message(message.chat.id, "Hello there!")
+        bot.send_message(message.chat.id, "Hello there!")
 
 @bot.message_handler(content_types=['audio', 'voice'])
 def main(message):
