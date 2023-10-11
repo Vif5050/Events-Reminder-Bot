@@ -1,0 +1,3 @@
+CREATE TABLE IF NOT EXISTS numbers (odds INTEGER, even INTEGER) - Creation of a table(tabliza) with 2 rows called odds and even (both of them are numbers = 'INTEGER') if it isn't already created
+
+INSERT OR IGNORE INTO numbers VALUES (1, 2) -
